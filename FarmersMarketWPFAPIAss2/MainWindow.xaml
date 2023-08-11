@@ -1,0 +1,15 @@
+﻿<Window x:Class="FarmersMarketWPFAPIAss2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FarmersMarketWPFAPIAss2"
+        mc:Ignorable="d"
+        Title="Home Page" Height="450" Width="800">
+    <Canvas x:Name="lbl1" Background="#FFA4B3FA">
+        <Button x:Name="btn_AdminPage" Content="Admin" Canvas.Left="122" Canvas.Top="238" Height="74" Width="116" Background="#FFC3EDC2" Foreground="#FF905B07" FontSize="24" FontWeight="Bold" FontFamily="Courier New" Click="btn_AdminPage_Click"/>
+        <Label Content="   Montreal Farmer's Market" Canvas.Left="194" Canvas.Top="66" Height="42" Width="433" Background="#FFC3EDC2" FontSize="24" FontFamily="Courier New" AllowDrop="True" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold" Foreground="#FF905B07" />
+        <Button x:Name="btn_SalesPage" Content="Sales" Canvas.Left="569" Canvas.Top="238"  Height="74" Width="116" Background="#FFC3EDC2" Foreground="#FF905B07" FontSize="24" FontWeight="Bold" FontFamily="Courier New" Click="btn_SalesPage_Click"/>
+
+    </Canvas>
+</Window>

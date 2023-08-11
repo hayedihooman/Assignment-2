@@ -1,0 +1,30 @@
+﻿<Window x:Class="FarmersMarketWPFAPIAss2.Sales"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FarmersMarketWPFAPIAss2"
+        mc:Ignorable="d"
+        Title="Sales" Height="544" Width="852">
+    <Canvas>
+        <Button x:Name="btn_Home" Content="Home" Canvas.Left="666" Canvas.Top="370" Height="30" Width="95"  FontFamily="Courier New" FontSize="16" FontWeight="Bold" Click="btn_Home_Click"  />
+        <DataGrid x:Name="DataGrid_db" Height="160" Width="430" Canvas.Left="342" Canvas.Top="20" FontFamily="Courier New" FontSize="14" SelectionChanged="DataGrid_db_SelectionChanged"  />
+        <Label x:Name="lbl_Copy" Content="Name" Height="30" Width="110" Canvas.Left="26" Canvas.Top="37" FontFamily="Courier New" FontSize="16" FontWeight="Bold" />
+        <Label x:Name="lbl_Copy1" Content="Amount(kg)" Height="30" Width="110" Canvas.Left="26" Canvas.Top="87" FontFamily="Courier New" FontSize="16" FontWeight="Bold" />
+        <Label x:Name="lbl_Copy2" Content="Price CAD/kg" Height="30" Width="130" Canvas.Left="26" Canvas.Top="137" FontFamily="Courier New" FontSize="16" FontWeight="Bold"  />
+        <TextBox x:Name="txtBox_prdName" Canvas.Left="156" TextWrapping="Wrap"  Canvas.Top="37" Height="30" Width="140" FontFamily="Courier New" FontSize="16" FontWeight="Bold" />
+        <TextBox x:Name="txtBox_amount" Canvas.Left="156" TextWrapping="Wrap"  Canvas.Top="87" Height="30" Width="140" FontFamily="Courier New" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="txtBox_price" Canvas.Left="156" TextWrapping="Wrap"  Canvas.Top="137" Height="30" Width="140" FontFamily="Courier New" FontSize="16" FontWeight="Bold"/>
+        <Button x:Name="btn_SearchById" Content="Search Name" Canvas.Left="26" Canvas.Top="187" Height="30" Width="112"  FontFamily="Courier New" FontSize="16" FontWeight="Bold" Click="btn_SearchById_Click" HorizontalAlignment="Left" VerticalAlignment="Center"  />
+        <TextBox x:Name="txtBox_searchName" Canvas.Left="156" TextWrapping="Wrap"  Canvas.Top="187" Height="30" Width="140" FontFamily="Courier New" FontSize="16" FontWeight="Bold" />
+        <Label x:Name="lbl_Copy3" Content="How much" Height="30" Width="110" Canvas.Left="26" Canvas.Top="242" FontFamily="Courier New" FontSize="16" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <Label x:Name="lbl_Copy4" Content="you want?" Height="30" Width="110" Canvas.Left="320" Canvas.Top="242" FontFamily="Courier New" FontSize="16" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <TextBox x:Name="txtBox_prdctkg" Canvas.Left="438" TextWrapping="Wrap"  Canvas.Top="242" Height="30" Width="140" FontFamily="Courier New" FontSize="16" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Button x:Name="btn_shop" Content="Add" Height="30" Width="95"  FontFamily="Courier New" FontSize="16" FontWeight="Bold" Canvas.Left="651" Canvas.Top="241" Click="btn_shop_Click"/>
+        <DataGrid x:Name="dataGrid_Cart" Height="100" Width="329" Canvas.Left="31" Canvas.Top="300" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Button x:Name="btn_chekout" Content="Check Out" Canvas.Left="38" Canvas.Top="438" Height="30" Width="71" Click="btn_chekout_Click"/>
+        <ComboBox x:Name="cmbProducts" Canvas.Left="156" Canvas.Top="246" Width="120"/>
+        <TextBox x:Name="txtBox_TotalAmount" Canvas.Left="396" TextWrapping="Wrap" Canvas.Top="430" Width="151" Height="38"/>
+        <Label x:Name="lbl_Copy5" Content="Your total amount is:" Height="30" Width="217" Canvas.Left="146" Canvas.Top="433" FontFamily="Courier New" FontSize="16" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" />
+    </Canvas>
+</Window>

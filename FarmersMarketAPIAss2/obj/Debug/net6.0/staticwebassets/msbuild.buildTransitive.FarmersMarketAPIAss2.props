@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\FarmersMarketAPIAss2.props" />
+</Project>

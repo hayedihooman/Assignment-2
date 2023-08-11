@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kOHs37koJiF+fSVTIBiLraxNoVxAXXhHZ45hUetyqKT+hytLd33NO8JJjb52h05HrxyNVjiRn6Bt8eD9ynspJw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\15146\\source\\repos\\FarmersMarketWPFAPIAss2\\FarmersMarketWPFAPIAss2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\15146\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
